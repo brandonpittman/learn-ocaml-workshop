@@ -21,7 +21,7 @@ open! Base
    above would be written like so:
 
    // C, C++, or Java type signature
-   int four; 
+   int four;
 *)
 let four = 4
 
@@ -70,11 +70,11 @@ let float_four = 4.
    value of the last statement in that function.
 
    Try implementing [int_average].  *)
-let int_average x y = failwith "For you to implement"
+let int_average x y = (x + y) / 2
 
 (* Now try implementing [float_average]. Remember that you can check the mli for
    the type of this function. *)
-let float_average x y = failwith "For you to implement"
+let float_average x y = (x +. y) /. 2.
 
 (* Note that in OCaml, parenthese are not necessary when applying a function! So
    the following expression computes the average of 10 and 20:
@@ -94,7 +94,7 @@ let last_name : string = "Flintstone"
 (* String concatenation is done with the [( ^ )] operator.  *)
 let full_name = first_name ^ " " ^ last_name
 
-(** ========== Booleans ========== **)                
+(** ========== Booleans ========== **)
 let a_boolean_false : bool = false
 
 (* You can use

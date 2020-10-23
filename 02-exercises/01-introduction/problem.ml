@@ -6,7 +6,7 @@
    Write OCaml code using your favorite text editor; if you aren't already
    committed to one, we recommend Visual Studio Code. *)
 
-let () = Stdio.printf "Hello, World!
+let () = Stdio.printf "Hello, World!"
 
 (** =========== Compilation ========== **)
 (* To compile your code and run inline tests, run
@@ -37,21 +37,21 @@ let () = Stdio.printf "Hello, World!
    previous line of code into utop and running it there.
 
    Note that in utop, every line must end with a double semi-colon (;;). Your
-   session should look like this: 
+   session should look like this:
 
    {|
-       utop # Stdio.printf "Hello, world";; 
+       utop # Stdio.printf "Hello, world";;
        Hello, world- : unit = ()
    |}
 
-   If you see "Error: Unbound module Stdio", your utop environment might be 
+   If you see "Error: Unbound module Stdio", your utop environment might be
    missing the stdio package. Try running the following:
 
-   {| 
+   {|
        utop # #require "stdio";;
    |}
 
-   and retrying. 
+   and retrying.
 
    While going through these exercises, it may be helpful to play around in utop! *)
 
